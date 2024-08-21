@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Center horizontally */
+  justify-content: center;
+  /* Center vertically */
+  height: 100vh;
+  /* Full viewport height */
+}
+
+
+.section {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  /* Center text */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  background: #333;
+  padding: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  border-bottom: 2px solid #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+form label {
+  margin-bottom: 10px;
+}
+
+.projects,
+.contact {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-width: 600px;
+  /* Optional: Limit the width */
+}
+
+
+form button {
+  background: #333;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  width: auto;
+  max-width: 100px;
+  text-align: center;
+}

@@ -1,6 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
+  margin: auto;
 }
 
 .container {
@@ -11,12 +12,34 @@ body {
   height: 100vh;
 }
 
+.menu {
+  position: relative;
+  z-index: 4;
+  /* to bring menu items to the front */
+  color: white;
+}
 
 .section {
-  margin: 10px;
-  padding: 20px;
+  margin: 100px;
+  padding: 200px;
   border: 1px solid #ccc;
   text-align: center;
+
+}
+
+.topRightImage {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  z-index: 2;
+}
+
+.RightImage {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
 }
 
 nav ul {
@@ -73,6 +96,24 @@ form label {
   max-width: 600px;
 }
 
+.footerimg {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  gap: 20px;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  margin-top: 20px;
+  padding-top: 20px;
+}
 
 form button {
   background: #333;

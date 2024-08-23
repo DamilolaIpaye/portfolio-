@@ -4,7 +4,8 @@ const About = () => {
   return (
     <section id="about">
 
-      <img src='/image/me.jpg' />
+      <img src='/image/me.jpg' className='topRightImage' />
+      <img src='/image/shape.png' className='RightImage' />
 
       <h1>Hello, my name<br />
         is Rodiyah Ipaye.</h1>

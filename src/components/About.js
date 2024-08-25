@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   const handleLinkedInClick = () => {
-    window.open('https://www.linkedin.com/feed/?trk=404_page', '_blank');
+    window.open('https://www.linkedin.com/in/damilola-ipaye-8413b1243/', '_blank');
   };
 
   const handleProjectButtonClick = () => {

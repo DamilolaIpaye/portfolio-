@@ -13,9 +13,9 @@ const About = () => {
   };
 
   return (
-    <section id="about">
+    <section id="about" className='about'>
       <img src='/image/me.jpg' className='topRightImage' />
-      <img src='/image/shape.png' className='RightImage' />
+      <img src='/image/yellow-bg.png' className='bg' />
 
       <h1>Hello, my name<br />
         is Rodiyah Ipaye.</h1>

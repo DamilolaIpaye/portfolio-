@@ -6,7 +6,7 @@ const Projects = () => {
     };
 
     return (
-        <section id="projects">
+        <section id="projects" className='projects-section'>
             <h2>My Projects</h2>
             <div className="project">
                 <div className="project-content">
@@ -14,7 +14,7 @@ const Projects = () => {
                     <div className="project-description">
                         <h3>Step navigation app</h3>
                         <p>"Step navigation" typically refers to the user interface (UI) design pattern that guides users through a multi-step process.</p>
-                        <button onClick={() => handleClick('https://example.com/step-navigation')}>View project</button>
+                        <button onClick={() => handleClick('https://step-sand.vercel.app/')}>View project</button>
                     </div>
                 </div>
             </div>
@@ -23,7 +23,7 @@ const Projects = () => {
                     <div className="project-description">
                         <h3>Bank app</h3>
                         <p>Web-based banking application designed to provide users with a seamless and efficient banking experience.</p>
-                        <button onClick={() => handleClick('https://example.com/bank-app')}>View project</button>
+                        <button onClick={() => handleClick('https://bank-xi-mauve.vercel.app/')}>View project</button>
                     </div>
                     <img src='/image/bank.PNG' alt="Bank app" />
                 </div>
@@ -54,7 +54,7 @@ const Projects = () => {
                     <div className="project-description">
                         <h3>Get advice app</h3>
                         <p>GetAdvice offers a platform where you can receive advice from knowledgeable peers.</p>
-                        <button onClick={() => handleClick('https://example.com/get-advice')}>View project</button>
+                        <button onClick={() => handleClick('https://get-advice-psi.vercel.app/')}>View project</button>
                     </div>
                 </div>
             </div>
@@ -74,8 +74,18 @@ const Projects = () => {
                     <div className="project-description">
                         <h3>usePopcorn app</h3>
                         <p>usePopcorn app allows you search for recommendations, tracking your watchlist, or diving deep into film details. It provides all the tools you need to enjoy movies.</p>
-                        <button onClick={() => handleClick('https://example.com/usepopcorn')}>View project</button>
+                        <button onClick={() => handleClick('https://popcorn1-rosy.vercel.app/')}>View project</button>
                     </div>
+                </div>
+            </div>
+            <div className="project">
+                <div className="project-content">
+                    <div className="project-description">
+                        <h3>Tip Calculator app</h3>
+                        <p>The Tip Calculator app is a simple yet efficient tool designed to help users calculate tips quickly and accurately.</p>
+                        <button onClick={() => handleClick('https://tip-calculator-gray-tau.vercel.app/')}>View project</button>
+                    </div>
+                    <img src='/image/tip-calculator.PNG' alt="tip-calculator app" />
                 </div>
             </div>
         </section>

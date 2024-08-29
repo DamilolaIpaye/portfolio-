@@ -43,9 +43,9 @@ const Projects = () => {
                     <div className="project-description">
                         <h3>Worldwise app</h3>
                         <p>WorldWise helps you explore countries, and current events through a variety of features tailored to your learning style.</p>
-                        <button onClick={() => handleClick('https://example.com/worldwise')}>View project</button>
+                        <button onClick={() => handleClick('https://worldwise-beryl-pi.vercel.app/')}>View project</button>
                     </div>
-                    <img src='/image/' alt="Worldwise app" />
+                    <img src='/image/worldwise.PNG' alt="Worldwise app" />
                 </div>
             </div>
             <div className="project">
@@ -64,7 +64,7 @@ const Projects = () => {
                     <div className="project-description">
                         <h3>Classy Weather app</h3>
                         <p>Classy Weather offers detailed forecasts, customizable notifications, and unique visualizations, all wrapped in a sleek, modern design.</p>
-                        <button onClick={() => handleClick('https://example.com/classy-weather')}>View project</button>
+                        <button onClick={() => handleClick('https://classy-weather-3pq8.vercel.app/')}>View project</button>
                     </div>
                 </div>
             </div>
@@ -86,6 +86,16 @@ const Projects = () => {
                         <button onClick={() => handleClick('https://tip-calculator-gray-tau.vercel.app/')}>View project</button>
                     </div>
                     <img src='/image/tip-calculator.PNG' alt="tip-calculator app" />
+                </div>
+            </div>
+            <div className="project">
+                <div className="project-content">
+                    <img src='/image/quiz.PNG' alt="React-quiz app" />
+                    <div className="project-description">
+                        <h3>React-quiz app</h3>
+                        <p> React quiz app involves building a dynamic, interactive user interface that can present questions, record user responses, and provide feedback or scores.</p>
+                        <button onClick={() => handleClick('https://react-quiz-phi-eight.vercel.app/')}>View project</button>
+                    </div>
                 </div>
             </div>
         </section>

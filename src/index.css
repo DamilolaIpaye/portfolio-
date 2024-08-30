@@ -248,7 +248,8 @@ form button {
   max-width: 100px;
   text-align: center;
   border-radius: 10px;
-
+  text-decoration: none;
+  padding: 1px;
 
 }
 

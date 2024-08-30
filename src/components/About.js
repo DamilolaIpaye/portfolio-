@@ -14,7 +14,7 @@ const About = () => {
 
   return (
     <section id="about" className='about'>
-      <img src='/image/me.jpg' className='topRightImage' />
+      <img src='/image/me.png' className='topRightImage' />
       <img src='/image/yellow-bg.png' className='bg' />
 
       <h1>Hello, my name<br />

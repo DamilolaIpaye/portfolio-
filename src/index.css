@@ -9,6 +9,10 @@ body {
   margin: auto;
 }
 
+.app-container {
+  min-height: 100vh;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -128,7 +132,6 @@ form label {
   border-radius: 8px;
   background-color: #f7f7f7;
   max-width: 800px;
-  width: 400px;
 }
 
 .contact-section {

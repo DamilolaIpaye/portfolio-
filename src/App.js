@@ -13,9 +13,8 @@ const App = () => {
       <Projects />
       <Contact />
 
-      <div className='footer'>
-        <Footer />
-      </div>
+
+      <Footer />
     </div>
   );
 };

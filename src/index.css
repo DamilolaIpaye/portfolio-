@@ -259,7 +259,7 @@ form label {
   flex-direction: column;
 }
 
-.footerimg h6 {
+.footerimg {
   display: inline-block;
   justify-content: center;
   height: auto;

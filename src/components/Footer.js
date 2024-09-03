@@ -17,7 +17,7 @@ const Footer = () => {
                 </a>
                 <img src='/image/mail.png' alt='Email' />
             </div>
-            <h6>Rodiyah@2024</h6>
+            <h6>Rodiyah 2024</h6>
         </footer>
     );
 };

@@ -260,11 +260,11 @@ form label {
   flex-direction: column;
 }
 
-.footerimg {
-  display: flex;
+.footerimg h6 {
+  display: inline-block;
   justify-content: center;
   height: auto;
-  gap: 20px;
+  gap: 30px;
 }
 
 .footer {

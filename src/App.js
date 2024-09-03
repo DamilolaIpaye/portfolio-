@@ -12,9 +12,7 @@ const App = () => {
       <About />
       <Projects />
       <Contact />
-      <div className='footer-container'>
-        <Footer />
-      </div>
+      <Footer />
     </div>
   );
 };

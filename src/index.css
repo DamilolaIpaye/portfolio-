@@ -26,10 +26,6 @@ body {
   padding-top: 750px;
 }
 
-.footer-container {
-  min-height: 100vh;
-}
-
 .menu {
   display: flex;
   justify-content: space-between;

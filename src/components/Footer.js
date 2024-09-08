@@ -15,7 +15,7 @@ const Footer = () => {
                 <a href='https://www.linkedin.com/in/damilola-ipaye-8413b1243/' target='_blank' rel='noopener noreferrer'>
                     <img src='/image/linkedin.png' alt='LinkedIn' />
                 </a>
-                <a href='mailto:ipayedamilolaao@gmail.com' target='_blank' rel='noopener noreferrer'>
+                <a href='mailto:ipayedamilolaao@gmail.com/' target='_blank' rel='noopener noreferrer'>
                     <img src='/image/mail.png' alt='Email' />
                 </a>
                 <h6>Rodiyah 2024</h6>

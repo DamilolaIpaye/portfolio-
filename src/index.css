@@ -274,6 +274,12 @@ form label {
 
 }
 
+.footer-icon {
+  height: 24px;
+  width: 24px;
+}
+
+
 form button {
   background: #333;
   color: white;

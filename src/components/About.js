@@ -23,11 +23,11 @@ const About = () => {
           <img src="/image/me.png" alt="Rodiyah Ipaye" />
         </div>
         <p>
-          I specialize in creating the user interface (UI) and<br />
-          user experience (UX) of a website or web application. I am responsible<br />
-          for translating design mockups into functional, interactive, and<br />
-          visually appealing web pages. This involves working with languages<br />
-          like HTML, CSS, and JavaScript, as well as frameworks and libraries<br />
+          I specialize in creating the user interface (UI) and
+          user experience (UX) of a website or web application. I am responsible
+          for translating design mockups into functional, interactive, and
+          visually appealing web pages. This involves working with languages
+          like HTML, CSS, and JavaScript, as well as frameworks and libraries
           such as React, Angular, or Vue.js.
         </p>
 
@@ -37,14 +37,14 @@ const About = () => {
           href="https://www.linkedin.com/in/damilola-ipaye-8413b1243/"
           target="_blank"
           rel='noopener noreferrer'
-          className="btn-link  btn btn-outine">
+          className="btn-link  btn btn-outline">
           LinkedIn
         </a>
       </div>
 
       <div
         style={{
-          backgroungImage: "url('/image/yellow-bg.png')",
+          backgroundImage: "url('/image/yellow-bg.png')",
         }}
         className="profile-image"
       >

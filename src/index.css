@@ -433,7 +433,7 @@ form button {
     flex-direction: row;
   }
 
-  .profile-img,
+  .project-img,
   .project-description {
     width: 50%;
     height: 100%;
@@ -443,14 +443,14 @@ form button {
     height: 350px;
   }
 
-  .profile-img.odd img,
+  .project-img.odd img,
   .project-description.even {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
   }
 
   .project-description.odd,
-  .profile-img.even {
+  .project-img.even img {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
   }

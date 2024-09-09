@@ -2,11 +2,12 @@ import React from 'react';
 import LinkedinImg from "../assets/linkedin.png"
 import InstaImg from "../assets/insta.png"
 import MailImg from "../assets/mail.png"
+import Vector from "../assets/Vector.png"
 
 const Footer = () => {
     return (
         <footer style={{
-            backgroundImage: `url('/image/Vector.png')`,
+            backgroundImage: `url(${Vector})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             padding: '110px'

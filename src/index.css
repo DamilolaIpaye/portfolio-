@@ -91,7 +91,13 @@ h3 {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.project-content.even .profile-img {
+.project-img img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.project-content.even .project-img {
   order: 1;
 }
 

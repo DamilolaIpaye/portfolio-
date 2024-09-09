@@ -1,4 +1,5 @@
 import React from 'react';
+import ProfileImg from "../images/me.png"
 
 const About = () => {
   // const handleLinkedInClick = () => {
@@ -20,9 +21,9 @@ const About = () => {
           <br className="sm-hidden" /> is Rodiyah Ipaye.
         </h1>
         <div className="profile-img-sm">
-          <img src="/image/me.png" alt="Rodiyah Ipaye" />
+          <img src={ProfileImg} alt="Rodiyah Ipaye" />
         </div>
-        <p>
+        <p className="about-me">
           I specialize in creating the user interface (UI) and
           user experience (UX) of a website or web application. I am responsible
           for translating design mockups into functional, interactive, and

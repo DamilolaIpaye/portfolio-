@@ -1,6 +1,6 @@
 import React from 'react';
-import ProfileImg from "../images/me.png"
-import YellowBg from "../images/yellow-bg.png"
+import ProfileImg from "../assets/me.png"
+import YellowBg from "../assets/yellow-bg.png"
 
 const About = () => {
   // const handleLinkedInClick = () => {

@@ -1,7 +1,7 @@
 import React from 'react';
-import LinkedinImg from "../images/linkedin.png"
-import InstaImg from "../images/insta.png"
-import MailImg from "../images/mail.png"
+import LinkedinImg from "../assets/linkedin.png"
+import InstaImg from "../assets/insta.png"
+import MailImg from "../assets/mail.png"
 
 const Footer = () => {
     return (

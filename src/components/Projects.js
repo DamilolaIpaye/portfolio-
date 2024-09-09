@@ -1,13 +1,13 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
-import Step from '../images/step.png';
-import Bank from "../images/bank.png";
-import WorldWise from "../images/worldwise.png"
-import Advice from "../images/advice.png";
-import ClassyWeather from "../images/classy-weather.png"
-import UsePopcorn from "../images/usePopcorn.png"
-import TipCalculator from "../images/tip-calculator.png"
-import Quiz from "../images/quiz.png"
+import Step from '../assets/step.png';
+import Bank from "../assets/bank.png";
+import WorldWise from "../assets/worldwise.png"
+import Advice from "../assets/advice.png";
+import ClassyWeather from "../assets/classy-weather.png"
+import UsePopcorn from "../assets/usePopcorn.png"
+import TipCalculator from "../assets/tip-calculator.png"
+import Quiz from "../assets/quiz.png"
 
 const projects = [
     {

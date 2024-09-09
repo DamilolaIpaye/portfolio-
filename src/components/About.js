@@ -1,5 +1,6 @@
 import React from 'react';
 import ProfileImg from "../images/me.png"
+import YellowBg from "../images/yellow-bg.png"
 
 const About = () => {
   // const handleLinkedInClick = () => {
@@ -45,11 +46,12 @@ const About = () => {
 
       <div
         style={{
-          backgroundImage: "url('/image/yellow-bg.png')",
+          backgroundImage:
+            `url(${YellowBg})`,
         }}
         className="profile-image"
       >
-        <img src="/image/me.png" className="topRightImage" alt="Damilola" />
+        <img src={ProfileImg} className="topRightImage" alt="Damilola" />
       </div>
     </section >
   );

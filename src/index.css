@@ -443,6 +443,7 @@ form button {
 
   .project-content {
     flex-direction: row;
+    height: 350px;
   }
 
   .project-img,
@@ -451,9 +452,6 @@ form button {
     height: 100%;
   }
 
-  .project-content {
-    height: 350px;
-  }
 
   .project-img.odd img,
   .project-description.even {

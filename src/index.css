@@ -62,7 +62,7 @@ body {
 }
 
 .project-description.odd,
-.project-content.even {
+.project-description.even {
   padding-left: 15px;
 }
 
@@ -109,7 +109,7 @@ h3 {
   order: 1;
 }
 
-.project-content.odd .profile-img {
+.project-content.odd .project-img {
   order: 2;
 }
 
@@ -444,6 +444,7 @@ form button {
   .project-content {
     flex-direction: row;
     height: 350px;
+    border-radius: 20px
   }
 
   .project-img,

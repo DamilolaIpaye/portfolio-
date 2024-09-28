@@ -27,7 +27,7 @@ const projects = [
         title: "Atomic-blog app",
         description: "Atomic-blog app lets you read and write insightful articles on a range of topics.",
         imgSrc: Atomicblog,
-        url: 'https://example.com/atomic-blog'
+        url: 'https://atomic-blog-ashy.vercel.app/'
     },
     {
         title: "Worldwise app",

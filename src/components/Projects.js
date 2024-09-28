@@ -8,6 +8,7 @@ import ClassyWeather from "../assets/classy-weather.png"
 import UsePopcorn from "../assets/usePopcorn.png"
 import TipCalculator from "../assets/tip-calculator.png"
 import Quiz from "../assets/quiz.png"
+import Atomicblog from "../assets/atomic-blog.png"
 
 const projects = [
     {
@@ -25,7 +26,7 @@ const projects = [
     {
         title: "Atomic-blog app",
         description: "Atomic-blog app lets you read and write insightful articles on a range of topics.",
-        imgSrc: '/image/atomic-blog.PNG',
+        imgSrc: Atomicblog,
         url: 'https://example.com/atomic-blog'
     },
     {

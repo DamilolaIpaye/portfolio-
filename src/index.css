@@ -496,14 +496,13 @@ form button {
   }
 
   body {
-    font-family: cursive;
+    font-family: "Nunito", sans-serif;
     /* Change the font for mobile here */
   }
 
   .profile-greeting {
     font-family: "Playfair Display", serif;
   }
-
 
 }
 

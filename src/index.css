@@ -495,14 +495,14 @@ form button {
     padding-bottom: 30px;
   }
 
-  body {
+  /* body {
     font-family: "Nunito", sans-serif;
     /* Change the font for mobile here */
-  }
 
-  /* .profile-greeting {
+
+  */ .profile-greeting {
     font-family: "Playfair Display", serif;
-  } */
+  }
 
 
 }

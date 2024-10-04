@@ -493,14 +493,8 @@ form button {
 
   .project-description {
     padding-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
 
-  }
-
-  /* Mobile screen (max-width: 480px) */
-  @media (max-width: 480px) {
-    .project-description {
-      font-family: 'Nunito', sans-serif;
-    }
   }
 }
 

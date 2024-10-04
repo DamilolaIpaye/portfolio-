@@ -55,7 +55,7 @@ body {
 }
 
 .project-description {
-  font-family: cursive;
+  font-family: 'Playfair Display', cursive;
   display: flex;
   flex-direction: column;
   justify-content: center;

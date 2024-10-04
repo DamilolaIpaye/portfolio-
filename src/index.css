@@ -496,12 +496,12 @@ form button {
   }
 
   body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Nunito", sans-serif;
     /* Change the font for mobile here */
   }
 
   .profile-greeting {
-    font-family: "Playfair Display", serif;
+    font-family: 'Times New Roman', Times, serif;
   }
 
 }

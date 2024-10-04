@@ -494,6 +494,12 @@ form button {
   .project-description {
     padding-bottom: 30px;
   }
+
+  /* Mobile-specific font styles */
+  body {
+    font-family: "Nunito", sans-serif;
+    /* Change the font for mobile here */
+  }
 }
 
 @media(min-width:768px) and(max-width: 1024px) {

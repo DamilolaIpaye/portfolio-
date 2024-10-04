@@ -496,13 +496,11 @@ form button {
 
   }
 
-  body {
-    font-family: "Nunito", sans-serif;
-    /* Change the font for mobile here */
-  }
-
-  .project-description {
-    font-family: "Playfair Display", serif;
+  /* Mobile screen (max-width: 480px) */
+  @media (max-width: 480px) {
+    .project-description {
+      font-family: 'Nunito', sans-serif;
+    }
   }
 }
 

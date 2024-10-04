@@ -493,16 +493,9 @@ form button {
 
   .project-description {
     padding-bottom: 30px;
-  }
-
-  body {
     font-family: 'Times New Roman', Times, serif;
-    /* Change the font for mobile here */
   }
 
-  .profile-greeting {
-    font-family: "Playfair Display", serif;
-  }
 
 }
 

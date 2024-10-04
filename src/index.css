@@ -493,13 +493,9 @@ form button {
 
   .project-description {
     padding-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
   }
 
-  /* Mobile-specific font styles */
-  .project-description {
-    font-family: cursive;
-    /* Change the font for mobile here */
-  }
 }
 
 @media(min-width:768px) and(max-width: 1024px) {

@@ -493,7 +493,7 @@ form button {
 
   .project-description {
     padding-bottom: 30px;
-    font-family: cursive;
+    /* font-family: cursive; */
 
   }
 }

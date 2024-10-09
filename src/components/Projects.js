@@ -71,7 +71,7 @@ const projects = [
         description: "Elevate your fitness routine with Workout-Timer, the ultimate workout timer app designed to help you maximize your training sessions.",
         imgSrc: Workout,
         url: 'https://vercel.com/ipaye-damilolas-projects/workout-timer'
-    },
+    }
 ];
 
 const Projects = () => {

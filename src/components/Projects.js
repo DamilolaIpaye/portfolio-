@@ -9,7 +9,7 @@ import UsePopcorn from "../assets/usePopcorn.png"
 import TipCalculator from "../assets/tip-calculator.png"
 import Quiz from "../assets/quiz.png"
 import Atomicblog from "../assets/atomic-blog.png"
-import Workout from "../assests/workout"
+import Workout from "../assests/workout.png"
 
 const projects = [
     {

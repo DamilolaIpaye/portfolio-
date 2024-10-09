@@ -9,6 +9,7 @@ import UsePopcorn from "../assets/usePopcorn.png"
 import TipCalculator from "../assets/tip-calculator.png"
 import Quiz from "../assets/quiz.png"
 import Atomicblog from "../assets/atomic-blog.png"
+import Workout from "../assests/workout"
 
 const projects = [
     {
@@ -64,7 +65,13 @@ const projects = [
         description: "React quiz app involves building a dynamic, interactive user interface that can present questions, record user responses, and provide feedback or scores.",
         imgSrc: Quiz,
         url: 'https://react-quiz-phi-eight.vercel.app/'
-    }
+    },
+    {
+        title: "Workout-timer app",
+        description: "Elevate your fitness routine with Workout-Timer, the ultimate workout timer app designed to help you maximize your training sessions.",
+        imgSrc: Workout,
+        url: 'https://vercel.com/ipaye-damilolas-projects/workout-timer'
+    },
 ];
 
 const Projects = () => {

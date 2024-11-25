@@ -78,7 +78,7 @@ const projects = [
         title: "Fast-react-pizza app",
         description: "The Fast React Pizza App is a project idea for practicing React concepts while building a simple, interactive web application for a fictional pizza restaurant.",
         imgSrc: Pizza,
-        url: 'https://fast-react-pizza-three-umber.vercel.app/'
+        url: 'https://fast-react-pizza-six-pi.vercel.app/'
     }
 ];
 

@@ -10,6 +10,8 @@ import TipCalculator from "../assets/tip-calculator.png"
 import Quiz from "../assets/quiz.png"
 import Atomicblog from "../assets/atomic-blog.png"
 import Workout from "../assets/workout.png"
+import Pizza from "../assets/fast-react-pizza.png"
+
 
 const projects = [
     {
@@ -71,6 +73,12 @@ const projects = [
         description: "Elevate your fitness routine with Workout-Timer, the ultimate workout timer app designed to help you maximize your training sessions.",
         imgSrc: Workout,
         url: 'https://vercel.com/ipaye-damilolas-projects/workout-timer'
+    },
+    {
+        title: "Fast-react-pizza app",
+        description: "The Fast React Pizza App is a project idea for practicing React concepts while building a simple, interactive web application for a fictional pizza restaurant.",
+        imgSrc: Pizza,
+        url: 'https://fast-react-pizza-three-umber.vercel.app/'
     }
 ];
 

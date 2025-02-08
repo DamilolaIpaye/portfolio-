@@ -13,7 +13,8 @@ const Footer = () => {
             padding: '110px'
         }}>
             <div className='footer'>
-                <a href='https://www.instagram.com/ipaye_rodiah/' target='_blank' rel='noopener noreferrer'>
+               <div className='footer-icons'>
+               <a href='https://www.instagram.com/ipaye_rodiah/' target='_blank' rel='noopener noreferrer'>
                     <img src={InstaImg} alt='Instagram' className='footer-icon' />
                 </a>
                 <a href='https://www.linkedin.com/in/damilola-ipaye-8413b1243/' target='_blank' rel='noopener noreferrer'>
@@ -22,6 +23,7 @@ const Footer = () => {
                 <a href='mailto:ipayedamilolaao@gmail.com/' target='_blank' rel='noopener noreferrer'>
                     <img src={MailImg} alt='Email' className='footer-icon' />
                 </a>
+               </div>
                 <h6>Rodiyah 2024</h6>
             </div>
         </footer>

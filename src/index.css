@@ -1,16 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-
-* {
-  margin: 0;
-  padding: 0;
-}
 
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  margin: auto;
+  margin: 0;
+  padding: 0;
 }
 
 .app-container {
@@ -55,7 +54,7 @@ body {
 }
 
 .project-description {
-  font-family: 'Playfair Display', cursive;
+  font-family: "Playfair Display", cursive;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -80,7 +79,8 @@ body {
 }
 
 h3 {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .project-content {
@@ -171,10 +171,9 @@ h2 {
   font-size: 28px;
   margin-bottom: 20px;
   color: #333;
-  width: Hug (181px)px;
-  height: Hug (80px)px;
+  width: Hug (181px) px;
+  height: Hug (80px) px;
   gap: 4px;
-
 }
 
 form {
@@ -193,9 +192,7 @@ form label {
   padding-left: 30px;
   padding-right: 30px;
   height: 100vh;
-
 }
-
 
 .projects-section {
   margin: auto;
@@ -209,8 +206,8 @@ form label {
 
   /* background-color: #f7f7f7;
   padding: 50px 20px;
-  width: Hug (400px)px;
-  height: Hug (603px)px;
+  width: (400px)px;
+  height: (603px)px;
   top: 160.5px;
   left: 520px;
   gap: 56px;
@@ -219,7 +216,6 @@ form label {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
-
 
 .contact-title {
   text-align: center;
@@ -274,17 +270,24 @@ form label {
 
 .footer {
   color: #828282;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Adjust spacing between icons */
   text-align: center;
   width: 100%;
   position: relative;
-
+}
+.footer-icons {
+  display: flex;
+  gap: 10px; /* Adjust spacing between icons */
 }
 
 .footer-icon {
   height: 24px;
   width: 24px;
 }
-
 
 form button {
   background: #333;
@@ -296,7 +299,6 @@ form button {
   text-align: center;
   border-radius: 10px;
 }
-
 
 .send-button {
   background-color: #fdc435;
@@ -362,13 +364,13 @@ form button {
   border: 1.5px solid #25282b;
 }
 
-@media(min-width:1025) and (max-width:1443) {
+@media (min-width: 1025) and (max-width: 1443) {
   .projects-section {
     margin-top: -25vh;
   }
 }
 
-@media(min-width:1444px) {
+@media (min-width: 1444px) {
   .profile-image img {
     height: 680px;
     margin-top: -220px;
@@ -379,9 +381,7 @@ form button {
   }
 }
 
-
-
-@media(min-width: 480px) {
+@media (min-width: 480px) {
   .about {
     padding-right: 0px;
   }
@@ -444,7 +444,7 @@ form button {
   .project-content {
     flex-direction: row;
     height: 350px;
-    border-radius: 20px
+    border-radius: 20px;
   }
 
   .project-img,
@@ -452,7 +452,6 @@ form button {
     width: 50%;
     height: 100%;
   }
-
 
   .project-img.odd img,
   .project-description.even {
@@ -465,11 +464,9 @@ form button {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
   }
-
 }
 
-
-@media(max-width: 480px) {
+@media (max-width: 480px) {
   .sm-hidden {
     display: none !important;
   }
@@ -494,13 +491,10 @@ form button {
   .project-description {
     padding-bottom: 30px;
     /* font-family: cursive; */
-
   }
 }
 
-
-
-@media(min-width:768px) and(max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .about {
     height: 50vh !important;
   }

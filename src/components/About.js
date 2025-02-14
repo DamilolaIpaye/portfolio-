@@ -33,7 +33,7 @@ const About = () => {
           such as React, Angular, or Vue.js.
         </p>
 
-        <button className="btn btn-primary" onClick={handleProjectButtonClick}>Projects
+        <button className="bg-primary text-black rounded-lg" onClick={handleProjectButtonClick}>Projects
         </button>
         <a
           href="https://www.linkedin.com/in/damilola-ipaye-8413b1243/"

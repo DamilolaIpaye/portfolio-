@@ -1,22 +1,20 @@
-const ProjectCard = ({ project, sno }) => {
-    const { imgSrc, title, description, url } = project;
-    const isEven = sno % 2 === 0;
-
+const ProjectCard = ({ title, description, imgSrc, link }) => {
     return (
-        <div className={`project-content ${isEven ? "even" : "odd"}`}>
-            <div className={`project-img ${isEven ? "even" : "odd"}`}>
-                <img src={imgSrc} alt={title} />
-            </div>
-
-            <div className={`project-description ${isEven ? "even" : "odd"}`}>
-                <h3>{title}</h3>
-                <p>{description}</p>
-                <a href={url} target="_blank" rel="noopener noreferrer" className="bg-primary text-black px-4 py-2 rounded-lg hover:bg-blue-700">
-                    View Project
-                </a>
-            </div>
+      <div className="bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 hover:scale-105">
+        <img src={ imgSrc} alt={title} className="w-full h-48 object-cover" />
+        <div className="p-4">
+          <h3 className="text-lg font-semibold text-gray-800">{title}</h3>
+          <p className="text-gray-600 text-sm mt-2">{description}</p>
+          <a
+            href={link}
+            className="inline-block mt-3 text-primary font-semibold hover:underline"
+          >
+            View Project →
+          </a>
         </div>
+      </div>
     );
-};
-
-export default ProjectCard;
+  };
+  
+  export default ProjectCard;
+  

@@ -5,12 +5,12 @@
 @tailwind utilities;
 
 
-/* body {
+body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
-} */
+}
 
 .app-container {
   min-height: 100vh;
@@ -53,7 +53,7 @@
   display: none;
 }
 
-/* .project-description {
+.project-description {
   font-family: "Playfair Display", cursive;
   display: flex;
   flex-direction: column;
@@ -76,12 +76,12 @@
 
 .project-description a {
   max-width: 90px;
-} */
+}
 
-/* h3 {
+h3 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-} */
+}
 
 .project-content {
   display: flex;
@@ -151,7 +151,7 @@
   margin: 10px;
 }
 
-/* nav ul {
+nav ul {
   list-style: none;
   display: flex;
   justify-content: right;
@@ -164,7 +164,7 @@ nav ul li a {
   margin-right: 20px;
   font-family: sans-serif;
   font-size: smaller;
-} */
+}
 
 h2 {
   text-align: center;
@@ -204,7 +204,7 @@ form label {
   max-width: 350px;
   margin: 0 auto;
 
-  /* background-color: #f7f7f7;
+  background-color: #f7f7f7;
   padding: 50px 20px;
   width: (400px)px;
   height: (603px)px;
@@ -214,7 +214,7 @@ form label {
   opacity: 0px;
   margin: 0 auto;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .contact-title {
@@ -313,8 +313,8 @@ form button {
 }
 
 .project-button {
-  /* color: black;
-  background-color: transparent; */
+  color: black;
+  background-color: transparent;
   padding: 5px 10px;
   border: 1px solid #000;
   width: auto;
@@ -323,7 +323,7 @@ form button {
   border-radius: 10px;
 }
 
-/* .btn-link {
+.btn-link {
   color: black;
   background-color: transparent;
   border: 1px solid #000;
@@ -334,7 +334,7 @@ form button {
   text-decoration: none;
   padding: 1px;
 
-} */
+}
 .btn {
   padding: 8px 16px 8px 16px;
   border-radius: 8px;

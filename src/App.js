@@ -7,8 +7,6 @@ import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <body className="font-sans leading-relaxed m-0 p-0" >
-
     <div className='app-container'>
       <Navbar />
       <About />
@@ -16,7 +14,6 @@ const App = () => {
       <Contact />
       <Footer />
     </div>
-    </body>
   );
 };
 
